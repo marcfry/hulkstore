@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Swal from 'sweetalert2'
-import { validacionInputs, validacionNumeros, validarNumeros } from './common/helpers'
+import { validacionInputs, validacionNumeros } from './common/helpers'
 
 const AgregarProducto = (props) => {
   const [nombreProducto, setNombreProducto] = useState('')

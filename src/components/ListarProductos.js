@@ -55,7 +55,7 @@ const ListarProductos = (props) => {
       <Table responsive striped bordered>
         <thead>
           <tr>
-            <th>id</th>
+            {/* <th>id</th> */}
             <th>Nombre</th>
             <th>Precio</th>
             <th>Stock</th>
@@ -65,18 +65,18 @@ const ListarProductos = (props) => {
         <tbody>
           {props.productos.map((producto) => {
             return (
-              <tr key={producto.id}>
-                <td>{producto.id}</td>
+              <tr key={producto._id}>
+                {/* <td>{producto._id}</td> */}
                 <td>{producto.nombreProducto}</td>
                 <td>$ {producto.precio}</td>
                 <td>
                   <span className="fw-bold">{producto.stock}</span>
                 </td>
                 <td>
-                  <Link className="btn btn-warning ms-3 mt-2" to={`/productos/editar/${producto.id}`}>Editar</Link>
+                  <Link className="btn btn-warning ms-3 mt-2" to={`/productos/editar/${producto._id}`}>Editar</Link>
                   <button
                     className="btn btn-danger ms-3 mt-2"
-                    onClick={() => eliminarProducto(producto.id)}
+                    onClick={() => eliminarProducto(producto._id)}
                   >
                     Borrar
                   </button>
