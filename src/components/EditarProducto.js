@@ -54,7 +54,7 @@ const EditarProducto = (props) => {
               precio: parseInt(precioRef.current.value),
               stock: parseInt(stockRef.current.value)
                         }
-           const respuesta = await fetch(`${URL}/${producto.id}`,{
+           const respuesta = await fetch(`${URL}/${producto._id}`,{
                method: "PUT",
                headers:{"Content-Type":"application/json"},
                body: JSON.stringify(productoModificado)

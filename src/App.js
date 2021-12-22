@@ -10,6 +10,7 @@ import ListarProductos from './components/ListarProductos';
 import AgregarProducto from './components/AgregarProducto';
 import EditarProducto from './components/EditarProducto';
 import Error404 from './components/Error404';
+import Registro from './components/Registro';
 
 function App() {
   const URL = process.env.REACT_APP_API_URL;
@@ -50,6 +51,9 @@ if(respuesta.status === 200){
         </Route>
         <Route exact path='/productos/editar/:id'>
           <EditarProducto consultarAPI={consultarAPI} ></EditarProducto>
+        </Route>
+        <Route exact path='/registro'>
+          <Registro></Registro>
         </Route>
         <Route path='*'>
           <Error404></Error404></Route>

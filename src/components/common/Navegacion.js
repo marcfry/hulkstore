@@ -21,7 +21,7 @@ const Navegacion = () => {
             <Nav className="me-auto">
               <NavLink exact={true} to='/'className='nav-link'>Inicio</NavLink>
               <NavLink exact={true} to='/login' className='nav-link'>INGRESAR</NavLink>
-              <NavLink exact={true} to='/registrarse' className='nav-link'>REGISTRARSE</NavLink>
+              <NavLink exact={true} to='/registro' className='nav-link'>REGISTRARSE</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

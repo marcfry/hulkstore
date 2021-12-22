@@ -1,13 +1,13 @@
-import React, { Fragment, useState } from 'react'
+import { useState } from "react";
+import React from 'react';
 
-const Login = () => {
-  const [email, setEmail] = useState('');
+const Registro = () => {
+    const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
-  
-
-  return (
-    <Fragment>
-      <form className="w-50 container">
+  const [pass2, setPass2] = useState('');
+    return (
+        <div>
+            <form className="w-50 container">
         <div className="mb-3">
           <label className="form-label">E-mail</label>
           <input
@@ -27,12 +27,23 @@ const Login = () => {
             onChange={(e)=>setPass(e.target.value)}
           ></input>
         </div>
+        <div className="mb-3">
+          <label className="form-label">
+            Repetir Contraseña
+          </label>
+          <input
+            type="password"
+            className="form-control"
+            onChange={(e)=>setPass(e.target.value)}
+          ></input>
+        </div>
         <button type="submit" className="btn btn-outline-secondary">
-          Ingresar
+          Registrarse
         </button>
       </form>
-    </Fragment>
-  )
-}
+            
+        </div>
+    );
+};
 
-export default Login
+export default Registro;
