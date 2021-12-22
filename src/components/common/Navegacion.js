@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from '../img/logo.gif'
+import logo from '../common/logo.gif'
 
 const Navegacion = () => {
     return (
