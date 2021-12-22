@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hulkstore/static/css/main.56e6221f.css",
+    "main.js": "/hulkstore/static/js/main.0d275f07.js",
+    "static/js/787.2e50f946.chunk.js": "/hulkstore/static/js/787.2e50f946.chunk.js",
+    "static/media/banner1.jpg": "/hulkstore/static/media/banner1.33787410af9bd0849c78.jpg",
+    "static/media/banner2.jpg": "/hulkstore/static/media/banner2.345b68be96d93c589b68.jpg",
+    "static/media/banner3.jpg": "/hulkstore/static/media/banner3.10d579f77c326aa7f9e7.jpg",
+    "static/media/logo.gif": "/hulkstore/static/media/logo.26b768578f5ec05c1334.gif",
+    "index.html": "/hulkstore/index.html",
+    "main.56e6221f.css.map": "/hulkstore/static/css/main.56e6221f.css.map",
+    "main.0d275f07.js.map": "/hulkstore/static/js/main.0d275f07.js.map",
+    "787.2e50f946.chunk.js.map": "/hulkstore/static/js/787.2e50f946.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56e6221f.css",
+    "static/js/main.0d275f07.js"
+  ]
+}
